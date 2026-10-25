@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Airflow logs and local data
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Build files
+build/
+dist/
+wheels/
+
+# macOS
+.DS_Store
